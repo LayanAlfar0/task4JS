@@ -1,0 +1,24 @@
+.products{
+    margin: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-between;
+}
+.product{
+    width: calc((100% - 160px) /4);
+    height: 30%;
+}
+.product img {
+    width:50%;
+    height: 50%;
+}
+body{
+    padding: 40px;
+}
+.swiper {
+    width: 600px;
+    height: 300px;
+    margin-left: 0;
+    margin-top: 20px;
+}
